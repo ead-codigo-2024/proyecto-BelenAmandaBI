@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Revista Ambientes</title>
+
+  <!-- Fuentes de Google -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+  
+  <!-- CSS Principal -->
+  <link rel="stylesheet" href="style4.css">
+
+  <!-- CSS de Splide -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@3.6.9/dist/css/splide.min.css">
+</head>
+
+<body>
+  <!-- Header -->
+  <header>
+    <div class="logo">
+      <img src="img/logo ambientes.jpg" alt="Logo">
+    </div>
+    <nav>
+      <ul>
+        <li><a href="Revista.html">Revistas</a></li>
+        <li class="menu-icon">
+          <span>☰</span>
+          <ul class="dropdown">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="diseno.html">Diseño</a></li>
+            <li><a href="arquitectura.html">Medio Ambiente</a></li>
+            <li><a href="arte.html">Arte</a></li>
+            <li><a href="tendencias.html">Tendencias</a></li>
+            <li><a href="Ferias.html">Ferias</a></li>
+            <li><a href="Paisajes.html">Paisajes</a></li>
+            <li><a href="iluminacion.html">Iluminación</a></li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Carrusel de imágenes con Splide.js -->
+  <main>
+    <section class="splide" aria-label="Splide Carrusel">
+      <div class="splide__track">
+        <ul class="splide__list">
+          <li class="splide__slide"><img src="img/edifico-medioambiente.jpg" alt="Imagen 1"></li>
+          <li class="splide__slide"><img src="img/planeta ambientes.jpg" alt="Imagen 2"></li>
+          <li class="splide__slide"><img src="img/Imagen 3,ambiente.JPG" alt="Imagen 3"></li>
+          <li class="splide__slide"><img src="img/Imagenes 2, Ambientes.JPG" alt="Imagen 4"></li>
+          <li class="splide__slide"><img src="img/panoramicas.jpg" alt="Imagen 5"></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Texto centrado debajo del carrusel -->
+    <section class="text-below-carousel">
+      <h2 class="planeta">Planeta</h2>
+      <p class="medio-ambiente">Medio Ambiente</p>
+    </section>
+
+    <!-- Sección de imágenes en cuadrado y texto al lado derecho -->
+    <section class="image-text-section">
+      <div class="images-grid">
+        <img src="img/edificio-1ambiente.JPG" alt="Imagen 1" class="small-image">
+        <img src="img/edificio2-ambiente.JPG" alt="Imagen 2" class="small-image">
+        <img src="img/edifico 3.jpg" alt="Imagen 3" class="small-image">
+        <img src="img/edificio-1ambiente.JPG" alt="Imagen 4" class="small-image">
+      </div>
+      <div class="text-content">
+        <h2>Diseñada Función al entorno</h2>
+        <h3>Transformación para sus vecinos y la ciudad en su conjunto</h3>
+        <p>
+          Junto a la avenida que conecta Aterro do Flamengo con Copacabana, el terreno alberga anteriormente, en varios lotes, una gasolinera y concesionarios de automóviles, con una calidad ambiental a nivel peatonal muy por debajo de su potencial. El complejo consta ahora
+          de tres torres residenciales que ofrecen completas instalaciones de ocio y una planta baja comercial con fachadas activas en su extensa esquina.
+        </p>
+        <p> 
+          Con la idea de no abandonar la escala del barrio de Botafogo, conocido por su interacción entre altos edificios modernos y arquitectura antigua, que va desde mansiones hasta pequeñas villas, surge una nueva propuesta de relación con el entorno a partir
+          de la planta de uso común del complejo.
+        </p>
+      </div>
+    </section>
+    
+    <!-- Imagen Extensa con Texto al Pasar el Mouse -->
+    <section class="text-below-carousel">
+      <h2 class="planeta">Soluciones Panoramicas</h2>
+    </section>
+    <section class="image-section">
+      <div class="image normal-image">
+        <img src="img/imagen horizontal.jpg" alt="Imagen horizontal" style="width: 100%; height: auto;">
+      </div>
+      <div class="image-container">
+        <img src="img/ceramica.png" alt="Imagen principal">
+        <div class="overlay">
+          <h2>Yi Design</h2>
+          <p>Es una empresa china de materiales que se enfoca, principalmente, en los desperdicios de cerámica a través de su país para dar vida a nuevas formas de uso para los mismos. Mediante la recopilación de residuos
+            cerámicos de industria fabricante de porcelana en Jingdezhen.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+   <!-- sección oasis -->
+   <section class="image-text-section">
+    <div class="image-side">
+      <div class="large-image">
+        <img src="img/Edifico oasis.jpg" alt="Imagen principal" style="width: 100%; height: 400px;">
+      </div>
+    </div>
+    <div class="text-side">
+      <h2>Oasis Vertical</h2>
+      <h3>Escenarios imaginarios</h3>
+      <p>
+        Mediante una colaboración rigurosa entre arquitectos y artistas que priorizan el uso de inteligencia artificial para imaginar un nuevo mundo, se presenta el proyecto Oasis Vertical.
+        Un programa de propuestas residenciales lleno de vida, dimensiones inusitadas y un contexto poco convencional. Esta obra, titulada como "Oasis Vertical" fue desarrollada gracias a una amplia diversidad de softwares de inteligencia artificial que, debido
+        a las ideas propuestas por un grupo de arquitectos, dio vida a una serie de edificios residenciales poco convencionales con elementos naturales propios del desierto.
+      </p>
+    </div>
+  </section>
+  
+  <section class="three-images-section">
+    <div class="image-container">
+      <img src="img/dos edifcios.jpg" alt="Imagen 1">
+    </div>
+    <div class="image-container">
+      <img src="img/edificio 4.jpg" alt="Imagen 2">
+    </div>
+    <div class="image-container">
+      <img src="img/edifico 3.jpg" alt="Imagen 3">
+    </div>
+  </section>
+   <!-- sección casa en el arbol -->
+   <section class="two-images-text-section">
+    <div class="text-content">
+      <h2>Casa en Árbol</h2>
+      <h3>Juegos de Infancia</h3>
+      <p>
+        Aquí puedes escribir el texto descriptivo relacionado con las imágenes de arriba. Este texto proporciona contexto adicional y detalles relevantes sobre el contenido visual.
+        Siguiendo las historias de infancia del cliente,con su casa de hojas bajo el árbol como protagonista de sus encuentros cotidianos, los arquitectos de la firma H2 llevaron a cabo la construcción de una vivienda cerca de un lago en Vietnam. Este proyecto residencial se titula “Tree houses by the lake”, y se alza dentro de un entorno boscoso por sobre la tierra gracias a una serie de columnas que lo elevan.
+      </p>
+    </div>
+    
+    <div class="images-row">
+      <div class="image-container">
+        <img src="img/casa-arbol.jpg" alt="Imagen de Casa en Árbol">
+      </div>
+      <div class="image-container">
+        <img src="img/casa-arbol1.jpg" alt="Otra Imagen de Casa en Árbol">
+      </div>
+    </div>
+  </section>
+  
+  
+  
+
+  <footer>
+    <p>Teléfono: (56-2)23787749 - Av. Kennedy 5600 oficina 306, Vitacura</p>
+    <p>
+      <a href="https://www.instagram.com/revistambientes/">Instagram</a> | 
+      <a href="https://www.facebook.com/ambientesmagazine">Facebook</a>
+    </p>
+    <div id="mapa">
+      <!-- Aquí puedes incrustar el mapa de Google Maps -->
+    </div>
+  </footer>
+  <!-- JavaScript de Splide y AutoScroll -->
+  <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@3.6.9/dist/js/splide.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide-extension-auto-scroll@0.4.4/dist/js/splide-extension-auto-scroll.min.js"></script>
+  <script src="scripit4.js"></script>
+  <!-- Footer -->
+</body>
+</html>
+
+
+
